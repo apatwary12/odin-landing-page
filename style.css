@@ -88,3 +88,37 @@ header .nav a{
 .hero img{
     border-radius: 30px;
 }
+.section-1 {
+     padding-bottom: 2em;
+}
+.section-1 h2{
+     text-align: center;
+     margin: 1em 0;
+}
+.section-1 .boxes{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.section-1 .boxes .box{
+     display: block;
+     width:20%;
+     float:left;
+     clear: both;
+}
+.section-1 .box-img{
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border:1px solid #1f2937;
+     border-radius: 20px;
+     height:300px;
+     width:300px;
+     background-color:#efefef;
+
+}
+
+.section-1 .boxes .box p{
+     max-width: 300px;
+}
